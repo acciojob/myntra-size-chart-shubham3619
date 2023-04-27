@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+table,thead,th,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+thead{
+	background-color: indianred;
+	color: white;
+}
+th {
+	text-align: left;
+}
+td {
+	text-align: right;
+}
